@@ -19,3 +19,13 @@ sixad also registers the hardware's MAC/ID in the device name
 QtSixA and sixad are licensed under the GNU GPL v2 license.
 
 For help, check manual.odt/pdf, or the online help at qtsixa.sourceforge.net
+
+## twongjirad-fork
+
+Savings edits to work with Pop OS 21.01.
+
+* pre-req: `sudo apt install pyqt5-dev-tools`
+* changed `qtsixa/Makefile` to use `pyuic5` instead of `pyuic4`
+* changed `qtsixa/Makefile` to use `pyrcc5` instead of `pyrcc4`
+
+Tested to work with PS3 Dualshock 3 controller as of 2022/11/23.
